@@ -1,0 +1,56 @@
+body{
+
+	font-family: verdana;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+
+}
+
+header,nav,footer{
+	text-align: center;
+	margin: 0.5em auto;
+	font-size: 2em;
+	max-width: 90%;
+
+}
+
+#cont1{
+
+	max-width: 90%;
+	height: 90%;
+	margin: auto auto;
+	text-align: center;
+	padding: 0.25em;
+	min-height: 200px;
+
+}
+
+#cont2,aside, #imagen{
+	display: inline-block;
+	width: 65%;
+	height: 90%;
+	text-align: center;
+	padding: 0.25em;
+	max-width:  90%;
+	vertical-align: top;
+
+}
+aside{
+	width: 30%;
+}
+
+#imagen{
+	display: inline;
+}
+
+@media (max-width: 500px){
+	nav{
+		color: white;
+		background: url(l.jpg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+	}
+}

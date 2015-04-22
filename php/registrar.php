@@ -14,9 +14,9 @@
 
 	$query="INSERT INTO  usuario(nombre,pass) VALUES ('".$user."','".$password."')";
 
-	mysqli_select_db($database,$conexionbase);
+	mysqli_select_db($database,$conexionBase);
 
-	$consulta =mysqli_query($query,$conexionbase) or die (mysqli_error());
+	$consulta =mysqli_query($query,$conexionBase) or die (mysqli_error());
 
 	echo 'Registrado correctamente hermano ;) ';
 

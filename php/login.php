@@ -13,7 +13,7 @@
 		$query="SELECT * FROM usuario WHERE nombre='".$user."' AND pass='".$password."'";
 		$conexionBase= mysqli_connect($host,$usuario,$pass,$database);
 
-		$consulta=mysqli_query($conexionBase,$query) or die('Fallo'.mysql_error());
+		$consulta=mysqli_query($conexionbase,$query) or die('Fallo'.mysql_error());
 		$num_rows=mysqli_num_rows($consulta);
 
 		if($num_rows==1){
